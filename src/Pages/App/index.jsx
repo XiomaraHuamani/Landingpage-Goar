@@ -3,6 +3,9 @@ import Home from "../home";
 import AboutUs from "../AboutUs";
 import ProjectsUs from "../ProjectsUS";
 
+import 'swiper/css'
+import "swiper/css/pagination"
+import 'swiper/css/free-mode';
 
 const AppRouters = () => {
   let routes = useRoutes([

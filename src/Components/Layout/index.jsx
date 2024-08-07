@@ -30,8 +30,7 @@ const Layout = ({ children }) => {
         isMobileMenu={isMobileMenu}
         handleMobileMenu={handleMobileMenu}
       />
-      <div className="flex mt-2">{children}</div>
-
+      <div className="flex mt-0">{children}</div>
 
       <Footer />
     </>
